@@ -1,0 +1,2462 @@
+.experience,
+.fantasy {
+  margin: 0;
+}
+.fantasyExperienceTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.fantasyExperience {
+  align-self: stretch;
+  width: 139px;
+  position: relative;
+  line-height: 76.6%;
+  display: -webkit-inline-box;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  flex-shrink: 0;
+}
+.inicio,
+.nuestrosMsters,
+.prximasPartidas {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.inicio {
+  align-self: stretch;
+  width: 52px;
+  color: var(--color-goldenrod-100);
+  display: flex;
+}
+.nuestrosMsters,
+.prximasPartidas {
+  color: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.prximasPartidas {
+  align-self: stretch;
+  width: 146px;
+  display: flex;
+}
+.nuestrosMsters {
+  width: 143px;
+}
+.contacto,
+.inicioParent,
+.nuestrosMsters {
+  align-self: stretch;
+  display: flex;
+}
+.contacto {
+  text-decoration: none;
+  width: 72px;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.inicioParent {
+  margin: 0;
+  width: 614px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-48xl);
+  max-width: 100%;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--input-label-size);
+  color: var(--nude);
+  font-family: var(--underline);
+}
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.a,
+.frameChild {
+  position: relative;
+}
+.frameChild {
+  height: 9.4px;
+  width: 9.4px;
+  border-radius: 50%;
+  background-color: var(--nude);
+  z-index: 1;
+}
+.a {
+  text-decoration: none;
+  align-self: stretch;
+  flex: 1;
+  font-weight: 300;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 2;
+  margin-left: -6.6px;
+}
+.ellipseParent {
+  position: absolute;
+  top: 1.5px;
+  left: 12.8px;
+  width: 9.4px;
+  height: 9.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.vectorParent {
+  align-self: stretch;
+  height: 18.8px;
+  position: relative;
+}
+.vectorIcon1,
+.vectorIcon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.5px;
+  height: 2.5px;
+}
+.vectorIcon2 {
+  left: 13.8px;
+}
+.vectorGroup {
+  height: 2.5px;
+  width: 16.3px;
+  position: relative;
+}
+.rightColumn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-4xs);
+}
+.frameParent,
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-8xs-9);
+}
+.leftColumn {
+  width: 27.5px;
+  align-items: flex-start;
+  padding: var(--padding-7xs-3) 0 0;
+  box-sizing: border-box;
+}
+.miCuenta {
+  text-decoration: none;
+  align-self: stretch;
+  width: 71px;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userAccount {
+  height: 37px;
+  flex: 1;
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--dark-gold);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-xs) var(--padding-5xs)
+    var(--padding-smi);
+  white-space: nowrap;
+  font-size: var(--texto-size);
+  color: var(--dark-gold);
+}
+.fantasyExperienceParent,
+.mainContent,
+.mainContentWrapper,
+.userAccount {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mainContent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-7xl-2);
+}
+.fantasyExperienceParent,
+.mainContentWrapper {
+  width: 151.7px;
+  flex-direction: column;
+  padding: var(--padding-2xl) 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-5xs);
+  color: var(--black);
+  font-family: var(--underline);
+}
+.fantasyExperienceParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--black);
+  width: 100%;
+  height: 80px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-59xl) 0 var(--padding-49xl);
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: right;
+  font-size: var(--logo-menu-size);
+  color: var(--dark-gold);
+  font-family: var(--logo-font);
+}
+.hMediaZ9jv6wrkrpaUnsplash1Icon {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 1280px;
+  height: 752px;
+  object-fit: cover;
+}
+.experience1,
+.fantasy1 {
+  margin: 0;
+}
+.fantasyExperienceTxtContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.fantasyExperience1 {
+  margin: 0;
+  position: absolute;
+  top: 341px;
+  left: 147px;
+  font-size: inherit;
+  line-height: 76.6%;
+  font-weight: 400;
+  font-family: var(--logo-font);
+  display: flex;
+  align-items: center;
+  width: 473px;
+  height: 194px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.bienvenidosA,
+.rolPlayGames {
+  position: absolute;
+  top: 329px;
+  left: 322px;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  width: 298px;
+  height: 40px;
+  z-index: 2;
+}
+.rolPlayGames {
+  margin: 0;
+  top: 535px;
+  left: 177px;
+  font-size: var(--titulo-3-size);
+  font-weight: 800;
+  font-family: inherit;
+  width: 443px;
+  height: 51px;
+  z-index: 1;
+}
+.verMsPartidas {
+  height: 29px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameItem,
+.verMsPartidasWrapper {
+  background-color: var(--nude);
+  display: none;
+}
+.verMsPartidasWrapper {
+  position: absolute;
+  top: 2871px;
+  left: 854px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-31xl);
+  width: 346px;
+  height: 60px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-81xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  gap: var(--gap-xl);
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--subtitulo-1-size);
+  color: var(--black);
+}
+.frameItem {
+  height: 626px;
+  width: 1280px;
+  position: relative;
+  max-width: 100%;
+}
+.konradKollerLctjo2d92cUnspIcon {
+  height: 431px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 352px;
+  z-index: 1;
+}
+.fantasyExperience2,
+.somos {
+  margin: 0;
+}
+.sedUtPerspiciatis,
+.somosFantasyExperienceContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.somosFantasyExperienceContainer {
+  height: 136px;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 800;
+  font-family: inherit;
+}
+.sedUtPerspiciatis {
+  height: 170px;
+  font-size: var(--texto-2-size);
+  line-height: 20px;
+  color: var(--dark-gray);
+}
+.aboutUsContent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.aboutUsContent {
+  flex: 1;
+  flex-direction: column;
+  gap: 120px;
+  min-width: 351px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 832px;
+  left: 0;
+  background-color: var(--nude);
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-81xl) var(--padding-59xl) 95px;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--titulo-1-size);
+  color: var(--black);
+  font-family: var(--underline);
+}
+.instagramIcon,
+.twitterIcon {
+  position: absolute;
+  top: 3260px;
+  left: 2045px;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+}
+.twitterIcon {
+  left: 2111px;
+}
+.frameInner {
+  height: 320px;
+  width: 1280px;
+  position: relative;
+  background-color: var(--black);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.experience2,
+.fantasy2 {
+  margin: 0;
+}
+.fantasyExperienceTxtContainer2 {
+  line-break: anywhere;
+}
+.fantasyExperience3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 76.6%;
+  display: -webkit-inline-box;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  z-index: 1;
+}
+.sguenosEnRedes {
+  height: 76px;
+  width: 250px;
+  position: absolute;
+  margin: 0 !important;
+  right: -37px;
+  bottom: -52px;
+  font-size: var(--subtitulo-1-size);
+  font-weight: 500;
+  font-family: var(--underline);
+  color: var(--nude);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.socialMediaContent {
+  height: 78px;
+  width: 177px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.instagramIcon1,
+.twitterIcon1 {
+  height: 36px;
+  width: 36px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.instagramIcon1 {
+  left: 589px;
+}
+.twitterIcon1 {
+  right: 589px;
+}
+.rectangleDiv,
+.rectangleGroup {
+  background-color: var(--black);
+  max-width: 100%;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 4755px;
+  left: 0;
+  width: 100%;
+  height: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-37xl) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--dark-gold);
+  font-family: var(--logo-font);
+}
+.rectangleDiv {
+  width: 1280px;
+  height: 821px;
+  position: relative;
+  display: none;
+}
+.nuestrosMejoresMasters {
+  margin: 0;
+  width: 733px;
+  height: 59px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameChild1 {
+  align-self: stretch;
+  height: 360px;
+  position: relative;
+  box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-xs);
+  background-color: var(--nude);
+  display: none;
+}
+.cedericVandenberghe21dp3hytvIcon {
+  align-self: stretch;
+  height: 200px;
+  position: relative;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.masterName {
+  height: 18px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.masterNameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--subtitulo-1-size);
+  color: var(--color-black);
+}
+.groupIcon {
+  height: 19.4px;
+  width: 131.1px;
+  position: relative;
+  z-index: 1;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-9xs-6) var(--padding-2xl);
+}
+.juegos,
+.preferencia {
+  height: 18px;
+  position: relative;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameGroup,
+.juegos,
+.preferencia,
+.verPerfil {
+  align-self: stretch;
+  display: flex;
+}
+.frameGroup {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  max-width: 100%;
+}
+.verPerfil {
+  height: 18px;
+  position: relative;
+  font-size: var(--underline-size);
+  text-decoration: underline;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameChild2,
+.groupDiv {
+  box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-xs);
+  background-color: var(--nude);
+}
+.groupDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lgi);
+  box-sizing: border-box;
+  gap: var(--gap-base-5);
+  max-width: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.frameChild2 {
+  align-self: stretch;
+  height: 360px;
+  position: relative;
+  display: none;
+}
+.cedericVandenberghe21dp3hytvIcon1 {
+  align-self: stretch;
+  height: 200px;
+  position: relative;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.masterName1 {
+  height: 18px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.masterNameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--subtitulo-1-size);
+  color: var(--color-black);
+}
+.frameChild3 {
+  height: 19.4px;
+  width: 130.3px;
+  position: relative;
+  z-index: 1;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-9xs-6);
+}
+.juegos1,
+.preferencia1 {
+  height: 18px;
+  position: relative;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameContainer,
+.juegos1,
+.preferencia1,
+.verPerfil1 {
+  align-self: stretch;
+  display: flex;
+}
+.frameContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  max-width: 100%;
+}
+.verPerfil1 {
+  height: 18px;
+  position: relative;
+  font-size: var(--underline-size);
+  text-decoration: underline;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameChild4,
+.rectangleParent1 {
+  box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-xs);
+  background-color: var(--nude);
+}
+.rectangleParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lgi);
+  box-sizing: border-box;
+  gap: var(--gap-base-5);
+  max-width: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.frameChild4 {
+  align-self: stretch;
+  height: 360px;
+  position: relative;
+  display: none;
+}
+.cedericVandenberghe21dp3hytvIcon2 {
+  align-self: stretch;
+  height: 200px;
+  position: relative;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.masterName2 {
+  height: 18px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.masterNameFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--subtitulo-1-size);
+  color: var(--color-black);
+}
+.frameChild5 {
+  height: 19.4px;
+  width: 131.1px;
+  position: relative;
+  z-index: 1;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-9xs-6) var(--padding-2xl);
+}
+.juegos2,
+.preferencia2 {
+  height: 18px;
+  position: relative;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent1,
+.juegos2,
+.preferencia2,
+.verPerfil2 {
+  align-self: stretch;
+  display: flex;
+}
+.frameParent1 {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  max-width: 100%;
+}
+.verPerfil2 {
+  height: 18px;
+  position: relative;
+  font-size: var(--underline-size);
+  text-decoration: underline;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.mastersGrid,
+.rectangleParent2 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent2 {
+  box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-xs);
+  background-color: var(--nude);
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-lgi);
+  gap: var(--gap-base-5);
+  z-index: 1;
+}
+.mastersGrid {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  padding: 0 0 var(--padding-8xl);
+  gap: 40.5px;
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  text-align: center;
+  font-size: var(--texto-2-size);
+  color: var(--dark-gray);
+}
+.mastersCTAChild {
+  height: 60px;
+  width: 346px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.mastersCTA {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.frameChild6,
+.rectangleContainer {
+  background-color: var(--black);
+  max-width: 100%;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 1458px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-81xl) var(--padding-61xl) 127px;
+  box-sizing: border-box;
+  gap: var(--gap-25xl);
+  text-align: left;
+  font-size: var(--titulo-2-size);
+  color: var(--dark-gold);
+  font-family: var(--underline);
+}
+.frameChild6 {
+  width: 1280px;
+  height: 809px;
+  position: relative;
+  display: none;
+}
+.nuestraComunidadOnline {
+  margin: 0;
+  width: 734px;
+  height: 59px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.frameChild7 {
+  align-self: stretch;
+  width: 637px;
+  position: relative;
+  box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-xs);
+  background-color: var(--nude);
+  display: none;
+  max-width: 100%;
+}
+.cedericVandenberghe21dp3hytvIcon3 {
+  height: 360px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xs) 0 0 var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 226px;
+  z-index: 1;
+}
+.partidaTtulo {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.postTitleAndAuthor {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 var(--padding-5xs);
+  box-sizing: border-box;
+  color: var(--color-black);
+}
+.autorName {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.postTitleAndAuthor1 {
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.jugadoresNames {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.jugadoresNamesWrapper {
+  width: 281px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.minutos,
+.nequePorroQuisquam {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.minutos {
+  width: 281px;
+  height: 24px;
+  line-height: 20px;
+  display: flex;
+  flex-shrink: 0;
+}
+.nequePorroQuisquam {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  line-height: 25px;
+  font-weight: 300;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.nequePorroQuisquamEstQuiWrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 15px var(--padding-4xs);
+  font-size: var(--texto-size);
+  color: var(--black);
+}
+.verDetalles {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.postDetails,
+.verDetallesWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.verDetallesWrapper {
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-4xs);
+  box-sizing: border-box;
+  font-size: var(--underline-size);
+}
+.postDetails {
+  flex: 1;
+  gap: var(--gap-7xs);
+  font-size: var(--texto-2-size);
+}
+.communityPost,
+.postDetails,
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.postInfo {
+  align-self: stretch;
+  flex: 1;
+  align-items: flex-end;
+  gap: 17.5px;
+}
+.communityPost {
+  height: 314px;
+  width: 290px;
+  align-items: flex-start;
+  padding: var(--padding-27xl) 0 0;
+  box-sizing: border-box;
+  min-width: 290px;
+}
+.communityContent,
+.frameSection,
+.rectangleParent3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent3 {
+  flex: 1;
+  box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-xs);
+  background-color: var(--nude);
+  row-gap: 20px;
+  z-index: 2;
+}
+.communityContent,
+.frameSection {
+  width: 639px;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--subtitulo-1-size);
+  color: var(--dark-gray);
+}
+.frameSection {
+  position: absolute;
+  top: 3946px;
+  left: 0;
+  background-color: var(--black);
+  width: 100%;
+  flex-direction: column;
+  padding: var(--padding-81xl) var(--padding-xl) 246px var(--padding-60xl);
+  gap: var(--gap-25xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--titulo-2-size);
+  color: var(--dark-gold);
+  font-family: var(--underline);
+}
+.frameChild8,
+.prximasPartidas1 {
+  position: relative;
+  max-width: 100%;
+}
+.frameChild8 {
+  width: 1280px;
+  height: 1666px;
+  background-color: var(--nude);
+  display: none;
+}
+.prximasPartidas1 {
+  margin: 0;
+  width: 638px;
+  height: 59px;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.frameChild9 {
+  align-self: stretch;
+  height: 480px;
+  position: relative;
+  box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-xs);
+  background-color: var(--nude);
+  display: none;
+}
+.cedericVandenberghe21dp3hytvIcon4 {
+  height: 210px;
+  width: 347px;
+  position: relative;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.gameTypeIcons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.presencial {
+  position: absolute;
+  top: 29px;
+  left: 18px;
+  text-decoration: underline;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 42px;
+  z-index: 3;
+}
+.gameTypeIconsParent {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+.cedericVandenberghe21dp3hytvParent {
+  align-self: stretch;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-3xs) var(--padding-11xs) var(--padding-81xl);
+  box-sizing: border-box;
+  background-image: url(/cedericvandenberghe21dp3hytvhwunsplash-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 1;
+}
+.fecha,
+.masterName3,
+.partidaTtulo1,
+.sistema {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.masterName3 {
+  font-size: var(--subtitulo-1-size);
+}
+.fecha,
+.sistema {
+  line-height: 20px;
+}
+.gameMasterInfo,
+.partidaTtuloParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.gameMasterInfo {
+  gap: var(--gap-11xs);
+  font-size: var(--texto-2-size);
+  color: var(--dark-gray);
+}
+.partidaTtuloParent {
+  gap: var(--gap-12xs);
+}
+.nequePorroQuisquam1 {
+  margin: 0;
+  height: 100px;
+  flex: 1;
+  position: relative;
+  line-height: 25px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.nequePorroQuisquamEstQuiContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--texto-size);
+  color: var(--black);
+}
+.frameParent2,
+.verDetalles1 {
+  align-self: stretch;
+  display: flex;
+}
+.verDetalles1 {
+  height: 18px;
+  position: relative;
+  font-size: var(--underline-size);
+  text-decoration: underline;
+  font-weight: 700;
+  color: var(--dark-gray);
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent2 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  font-size: var(--subtitulo-1-size);
+}
+.frameChild10,
+.rectangleParent5 {
+  box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-xs);
+  background-color: var(--nude);
+}
+.rectangleParent5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+  max-width: 100%;
+  cursor: pointer;
+  z-index: 3;
+}
+.frameChild10 {
+  align-self: stretch;
+  height: 480px;
+  position: relative;
+  display: none;
+}
+.cedericVandenberghe21dp3hytvIcon5 {
+  height: 210px;
+  width: 347px;
+  position: relative;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.starIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.online {
+  position: absolute;
+  top: 29px;
+  left: 18px;
+  text-decoration: underline;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 42px;
+  z-index: 3;
+}
+.starParent {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+.cedericVandenberghe21dp3hytvGroup {
+  align-self: stretch;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-3xs) var(--padding-11xs) var(--padding-81xl);
+  box-sizing: border-box;
+  background-image: url(/cedericvandenberghe21dp3hytvhwunsplash-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 1;
+}
+.partidaTtulo2 {
+  color: var(--color-black);
+}
+.fecha1,
+.masterName4,
+.partidaTtulo2,
+.sistema1 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.fecha1,
+.sistema1 {
+  font-size: var(--texto-2-size);
+  line-height: 20px;
+}
+.partidaTtuloGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs-7);
+}
+.nequePorroQuisquam2 {
+  margin: 0;
+  height: 100px;
+  flex: 1;
+  position: relative;
+  line-height: 25px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.nequePorroQuisquamEstQuiFrame {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--texto-size);
+  color: var(--black);
+}
+.frameParent3,
+.nequePorroQuisquamEstQuiFrame,
+.verDetalles2 {
+  align-self: stretch;
+  display: flex;
+}
+.verDetalles2 {
+  height: 18px;
+  position: relative;
+  font-size: var(--underline-size);
+  text-decoration: underline;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent3 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  font-size: var(--subtitulo-1-size);
+  color: var(--dark-gray);
+}
+.frameChild11,
+.rectangleParent6 {
+  box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-xs);
+  background-color: var(--nude);
+}
+.rectangleParent6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+  max-width: 100%;
+  cursor: pointer;
+  z-index: 3;
+}
+.frameChild11 {
+  align-self: stretch;
+  height: 480px;
+  position: relative;
+  display: none;
+}
+.cedericVandenberghe21dp3hytvIcon6 {
+  height: 210px;
+  width: 347px;
+  position: relative;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.frameChild12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.online1 {
+  position: absolute;
+  top: 29px;
+  left: 18px;
+  text-decoration: underline;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 42px;
+  z-index: 3;
+}
+.starGroup {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+.cedericVandenberghe21dp3hytvContainer {
+  align-self: stretch;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-3xs) var(--padding-11xs) var(--padding-81xl);
+  box-sizing: border-box;
+  background-image: url(/cedericvandenberghe21dp3hytvhwunsplash-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 1;
+}
+.partidaTtulo3 {
+  color: var(--color-black);
+}
+.fecha2,
+.masterName5,
+.partidaTtulo3,
+.sistema2 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.fecha2,
+.sistema2 {
+  font-size: var(--texto-2-size);
+  line-height: 20px;
+}
+.partidaTtuloContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs-7);
+}
+.nequePorroQuisquam3 {
+  margin: 0;
+  height: 100px;
+  flex: 1;
+  position: relative;
+  line-height: 25px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.nequePorroQuisquamEstQuiWrapper1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--texto-size);
+  color: var(--black);
+}
+.verDetalles3 {
+  align-self: stretch;
+  height: 18px;
+  position: relative;
+  font-size: var(--underline-size);
+  text-decoration: underline;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent4,
+.rectangleParent7,
+.upcomingGamesGrid {
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  font-size: var(--subtitulo-1-size);
+  color: var(--dark-gray);
+}
+.rectangleParent7,
+.upcomingGamesGrid {
+  box-sizing: border-box;
+}
+.rectangleParent7 {
+  box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-xs);
+  background-color: var(--nude);
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-lg);
+  gap: var(--gap-mid);
+  z-index: 3;
+}
+.upcomingGamesGrid {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  padding: 0 0 61px;
+  gap: var(--gap-21xl);
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+}
+.partidasDigitalesDestacadas {
+  margin: 0;
+  height: 59px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.partidasDigitalesDestacadasWrapper {
+  width: 832px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild13 {
+  align-self: stretch;
+  height: 480px;
+  position: relative;
+  box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-xs);
+  background-color: var(--nude);
+  display: none;
+}
+.cedericVandenberghe21dp3hytvIcon7 {
+  height: 210px;
+  width: 347px;
+  position: relative;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.featuredGameTypeIcons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.digital {
+  position: absolute;
+  top: 29px;
+  left: 18px;
+  text-decoration: underline;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 42px;
+  z-index: 3;
+}
+.featuredGameTypeIconsParent {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+.cedericVandenberghe21dp3hytvParent1 {
+  align-self: stretch;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-3xs) var(--padding-11xs) var(--padding-81xl);
+  box-sizing: border-box;
+  background-image: url(/cedericvandenberghe21dp3hytvhwunsplash-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 1;
+}
+.partidaTtulo4 {
+  color: var(--color-black);
+}
+.autorName1,
+.partidaTtulo4,
+.sistema3 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.sistema3 {
+  font-size: var(--texto-2-size);
+  line-height: 20px;
+}
+.partidaTtuloParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  gap: var(--gap-12xs);
+}
+.digitalGameDescriptionChild {
+  height: 19.4px;
+  width: 136px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  z-index: 1;
+}
+.digitalGameDescription,
+.nequePorroQuisquam4 {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.digitalGameDescription {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.nequePorroQuisquam4 {
+  margin: 0;
+  height: 100px;
+  position: relative;
+  line-height: 25px;
+  font-weight: 300;
+  align-items: center;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  z-index: 1;
+}
+.digitalGameDescriptionConta {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-6);
+  max-width: 100%;
+}
+.digitalGamePlayers {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--texto-size);
+  color: var(--black);
+}
+.digitalGamePlayers,
+.frameParent6,
+.verDetalles4 {
+  align-self: stretch;
+  display: flex;
+}
+.verDetalles4 {
+  height: 18px;
+  position: relative;
+  font-size: var(--underline-size);
+  text-decoration: underline;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent6 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+  font-size: var(--subtitulo-1-size);
+  color: var(--dark-gray);
+}
+.frameChild14,
+.rectangleParent8 {
+  box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-xs);
+  background-color: var(--nude);
+}
+.rectangleParent8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+  max-width: 100%;
+  cursor: pointer;
+  z-index: 3;
+}
+.frameChild14 {
+  align-self: stretch;
+  height: 480px;
+  position: relative;
+  display: none;
+}
+.cedericVandenberghe21dp3hytvIcon8 {
+  height: 210px;
+  width: 347px;
+  position: relative;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.frameChild15 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.digital1 {
+  position: absolute;
+  top: 29px;
+  left: 18px;
+  text-decoration: underline;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 42px;
+  z-index: 3;
+}
+.starContainer {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+.cedericVandenberghe21dp3hytvParent2 {
+  align-self: stretch;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-3xs) var(--padding-11xs) var(--padding-81xl);
+  box-sizing: border-box;
+  background-image: url(/cedericvandenberghe21dp3hytvhwunsplash-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 1;
+}
+.partidaTtulo5 {
+  color: var(--color-black);
+}
+.autorName2,
+.partidaTtulo5,
+.sistema4 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.sistema4 {
+  font-size: var(--texto-2-size);
+  line-height: 20px;
+}
+.partidaTtuloParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  gap: var(--gap-12xs);
+}
+.frameChild16 {
+  height: 19.4px;
+  width: 136px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  z-index: 1;
+}
+.frameWrapper3,
+.nequePorroQuisquam5 {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.frameWrapper3 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.nequePorroQuisquam5 {
+  margin: 0;
+  height: 100px;
+  position: relative;
+  line-height: 25px;
+  font-weight: 300;
+  align-items: center;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  z-index: 1;
+}
+.frameParent8,
+.frameWrapper2 {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent8 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-3xs-6);
+}
+.frameWrapper2 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-4xs);
+  box-sizing: border-box;
+  font-size: var(--texto-size);
+  color: var(--black);
+}
+.frameParent7,
+.frameWrapper2,
+.verDetalles5 {
+  align-self: stretch;
+  display: flex;
+}
+.verDetalles5 {
+  height: 18px;
+  position: relative;
+  font-size: var(--underline-size);
+  text-decoration: underline;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent7 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+  font-size: var(--subtitulo-1-size);
+  color: var(--dark-gray);
+}
+.frameChild17,
+.rectangleParent9 {
+  box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-xs);
+  background-color: var(--nude);
+}
+.rectangleParent9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+  max-width: 100%;
+  cursor: pointer;
+  z-index: 3;
+}
+.frameChild17 {
+  align-self: stretch;
+  height: 480px;
+  position: relative;
+  display: none;
+}
+.cedericVandenberghe21dp3hytvIcon9 {
+  height: 210px;
+  width: 347px;
+  position: relative;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.frameChild18 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.digital2 {
+  position: absolute;
+  top: 29px;
+  left: 18px;
+  text-decoration: underline;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 42px;
+  z-index: 3;
+}
+.starParent1 {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+.cedericVandenberghe21dp3hytvParent3 {
+  align-self: stretch;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-3xs) var(--padding-11xs) var(--padding-81xl);
+  box-sizing: border-box;
+  background-image: url(/cedericvandenberghe21dp3hytvhwunsplash-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 1;
+}
+.partidaTtulo6 {
+  color: var(--color-black);
+}
+.autorName3,
+.partidaTtulo6,
+.sistema5 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.sistema5 {
+  font-size: var(--texto-2-size);
+  line-height: 20px;
+}
+.partidaTtuloParent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  gap: var(--gap-12xs);
+}
+.frameChild19 {
+  height: 19.4px;
+  width: 136px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  z-index: 1;
+}
+.frameWrapper5,
+.nequePorroQuisquam6 {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.frameWrapper5 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.nequePorroQuisquam6 {
+  margin: 0;
+  height: 100px;
+  position: relative;
+  line-height: 25px;
+  font-weight: 300;
+  align-items: center;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  z-index: 1;
+}
+.frameParent10 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-6);
+  max-width: 100%;
+}
+.frameWrapper4,
+.verDetalles6 {
+  align-self: stretch;
+  display: flex;
+}
+.frameWrapper4 {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--texto-size);
+  color: var(--black);
+}
+.verDetalles6 {
+  height: 18px;
+  position: relative;
+  font-size: var(--underline-size);
+  text-decoration: underline;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent9,
+.rectangleParent10 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent9 {
+  align-self: stretch;
+  gap: var(--gap-9xs);
+  font-size: var(--subtitulo-1-size);
+  color: var(--dark-gray);
+}
+.rectangleParent10 {
+  box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: var(--br-xs);
+  background-color: var(--nude);
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+  cursor: pointer;
+  z-index: 3;
+}
+.featuredGamesGrid,
+.frameParent5 {
+  align-self: stretch;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.featuredGamesGrid {
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  text-align: center;
+  font-size: var(--underline-size);
+  color: var(--color-black);
+}
+.frameParent5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-25xl);
+  text-align: right;
+  font-size: var(--titulo-2-size);
+  color: var(--dark-gray);
+}
+.viewMoreGamesButtonContain {
+  height: 60px;
+  flex: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+  cursor: pointer;
+  z-index: 3;
+}
+.viewMoreGamesContainer {
+  width: 348px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.upcomingGamesContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-48xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--underline-size);
+  color: var(--color-black);
+}
+.homeV11,
+.rectangleParent4 {
+  width: 100%;
+  text-align: right;
+  font-family: var(--underline);
+}
+.rectangleParent4 {
+  position: absolute;
+  top: 2280px;
+  left: 0;
+  background-color: var(--nude);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 74px var(--padding-60xl) 139px;
+  box-sizing: border-box;
+  gap: 76px;
+  max-width: 100%;
+  z-index: 2;
+  font-size: var(--titulo-2-size);
+  color: var(--dark-gold);
+}
+.homeV11 {
+  height: 5075px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow-y: auto;
+  display: none;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--logo-font-size);
+  color: var(--nude);
+}
+@media screen and (max-width: 1125px) {
+  .upcomingGamesContent {
+    gap: var(--gap-14xl);
+  }
+}
+@media screen and (max-width: 1025px) {
+  .inicioParent {
+    display: none;
+  }
+  .fantasyExperienceParent {
+    width: 666px;
+  }
+  .fantasyExperience1 {
+    font-size: 48px;
+    line-height: 44px;
+  }
+  .bienvenidosA {
+    font-size: var(--logo-menu-size);
+  }
+  .rolPlayGames {
+    font-size: 51px;
+  }
+  .somosFantasyExperienceContainer {
+    font-size: var(--font-size-31xl);
+    line-height: 48px;
+  }
+  .fantasyExperience3 {
+    font-size: var(--logo-menu-size);
+    line-height: 20px;
+  }
+  .nuestrosMejoresMasters {
+    font-size: var(--font-size-21xl);
+  }
+  .mastersGrid {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(260px, 451px));
+  }
+  .nuestraComunidadOnline {
+    font-size: var(--font-size-21xl);
+  }
+  .frameSection {
+    padding-left: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .prximasPartidas1 {
+    font-size: var(--font-size-21xl);
+  }
+  .upcomingGamesGrid {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(260px, 451px));
+  }
+  .partidasDigitalesDestacadas {
+    font-size: var(--font-size-21xl);
+  }
+  .featuredGamesGrid {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(260px, 451px));
+  }
+  .homeV11 {
+    height: auto;
+    min-height: 5075;
+  }
+}
+@media screen and (max-width: 750px) {
+  .inicioParent {
+    gap: var(--gap-14xl);
+  }
+  .fantasyExperienceParent {
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .konradKollerLctjo2d92cUnspIcon {
+    min-width: 100%;
+  }
+  .aboutUsContent {
+    gap: 60px;
+    min-width: 100%;
+  }
+  .rectangleParent {
+    gap: var(--gap-xl);
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .mastersGrid {
+    gap: var(--gap-xl);
+    grid-template-columns: minmax(260px, 1fr);
+  }
+  .rectangleContainer {
+    gap: var(--gap-3xl);
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .communityPost {
+    flex: 1;
+  }
+  .rectangleParent3 {
+    flex-wrap: wrap;
+  }
+  .featuredGamesGrid,
+  .upcomingGamesGrid {
+    gap: var(--gap-xl);
+    grid-template-columns: minmax(260px, 1fr);
+  }
+  .frameParent5 {
+    gap: var(--gap-3xl);
+  }
+  .upcomingGamesContent {
+    gap: var(--gap-mid);
+  }
+  .rectangleParent4 {
+    gap: var(--gap-19xl);
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .inicioParent {
+    gap: var(--gap-mid);
+  }
+  .fantasyExperience1 {
+    font-size: 29px;
+    line-height: 29px;
+  }
+  .bienvenidosA {
+    font-size: var(--font-size-lgi);
+  }
+  .rolPlayGames {
+    font-size: 38px;
+  }
+  .somosFantasyExperienceContainer {
+    font-size: var(--font-size-11xl);
+    line-height: 32px;
+  }
+  .aboutUsContent {
+    gap: var(--gap-11xl);
+  }
+  .fantasyExperience3 {
+    line-height: 15px;
+  }
+  .fantasyExperience3,
+  .sguenosEnRedes {
+    font-size: var(--font-size-lgi);
+  }
+  .nuestrosMejoresMasters {
+    font-size: var(--subtitulo-1-size);
+  }
+  .masterName,
+  .masterName1,
+  .masterName2 {
+    font-size: var(--font-size-lgi);
+  }
+  .nuestraComunidadOnline {
+    font-size: var(--subtitulo-1-size);
+  }
+  .autorName,
+  .partidaTtulo {
+    font-size: var(--font-size-lgi);
+  }
+  .frameSection {
+    gap: var(--gap-3xl);
+  }
+  .prximasPartidas1 {
+    font-size: var(--subtitulo-1-size);
+  }
+  .masterName3,
+  .masterName4,
+  .masterName5,
+  .partidaTtulo1,
+  .partidaTtulo2,
+  .partidaTtulo3 {
+    font-size: var(--font-size-lgi);
+  }
+  .partidasDigitalesDestacadas {
+    font-size: var(--subtitulo-1-size);
+  }
+  .autorName1,
+  .autorName2,
+  .autorName3,
+  .partidaTtulo4,
+  .partidaTtulo5,
+  .partidaTtulo6 {
+    font-size: var(--font-size-lgi);
+  }
+  .viewMoreGamesButtonContain {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .rectangleParent4 {
+    gap: var(--gap-lgi);
+  }
+}
